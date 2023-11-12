@@ -1,0 +1,83 @@
+:root {
+	--background-color1: #2e3440;
+	--background-color2: #3b4252;
+	--background-color3: #434c5e;
+	--font-color: #d8dee9;
+	--highlight-color1: #88c0d0;
+	--highlight-color2: #81a1c1;
+	--highlight-color3: #5e81ac;
+	--contrast-color1: #bf616a;
+	--contrast-color2: #d08770;
+	--contrast-color3: #ebcb8b;
+	--contrast-color4: #a3be8c;
+	--contrast-color5: #b48ead;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+h1,
+h2 {
+	font-family: Tahoma, sans-serif;
+	font-weight: bold;
+	text-align: center;
+}
+
+h1 {
+	font-size: 4rem;
+	color: var(--font-color);
+}
+
+p {
+	font-family: serif;
+	font-size: 2rem;
+	color: var(--highlight-color1);
+}
+
+#navbar {
+	display: flex;
+	justify-content: flex-end;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	background: var(--contrast-color1);
+}
+
+#portada {
+	background-color: var(--background-color1);
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#recomendaciones {
+	background-color: var(--background-color3);
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#sobre-nosotros {
+	background-color: var(--background-color2);
+	height: 100vh;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+@media (max-width: 800px) {
+	h1 {
+		font-size: 3rem;
+	}
+}
