@@ -1,11 +1,6 @@
 :root {
-	--background-color1: #2e3440;
-	--background-color2: #3b4252;
-	--background-color3: #434c5e;
-	--font-color: #d8dee9;
-	--highlight-color1: #88c0d0;
-	--highlight-color2: #81a1c1;
-	--highlight-color3: #5e81ac;
+
+	--font-color: rgb(43, 43, 43);
 	--contrast-color1: #bf616a;
 	--contrast-color2: #d08770;
 	--contrast-color3: #ebcb8b;
@@ -16,12 +11,23 @@
 body {
 	margin: 0;
 	padding: 0;
+	background-image: url('fondopng1.png');
+    background-repeat: repeat;
+    background-size: 300px;
+	
+}
+header {
+    text-align: center;
 }
 
+header img {
+    width: 100%; 
+    height: auto; 
+}
 h1,
 h2 {
-	font-family: Tahoma, sans-serif;
-	font-weight: bold;
+	font-family: 'Indie Flower', cursive;
+    font-weight: bold;
 	text-align: center;
 }
 
@@ -35,7 +41,7 @@ h2 {
 }
 
 p {
-	font-family: serif;
+	font-family: 'Indie Flower', cursive;
 	font-size: 2rem;
 	color: var(--highlight-color1);
 }
