@@ -96,13 +96,51 @@ li a {
 }
 
 #recomendaciones {
-	background-color: var(--background-color3);
-	height: 100vh;
-	width: 100%;
+
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+
+	.flex-container {
+		display: flex;
+		flex-direction: row;
+		flex-wrap: nowrap;
+		justify-content: space-around;
+		align-items: center;
+		align-content: space-between;
+		font-size: 25px;
+		text-align: center;
+		font-family: 'Caveat', cursive;
+
+	  }
+	  
+	  .flex-items:nth-child(1) {
+		display: block;
+		flex-grow: 0;
+		flex-shrink: 1;
+		flex-basis: auto;
+		align-self: flex-end;
+		order: 0;
+	  }
+	  
+	  .flex-items:nth-child(2) {
+		display: block;
+		flex-grow: 0;
+		flex-shrink: 1;
+		flex-basis: auto;
+		align-self: stretch;
+		order: 0;
+	  }
+	  
+	  .flex-items:nth-child(3) {
+		display: block;
+		flex-grow: 0;
+		flex-shrink: 1;
+		flex-basis: auto;
+		align-self: flex-start;
+		order: 0;
+	  }
 }
 
 #sobre-nosotros {
