@@ -48,7 +48,7 @@ h3 {
 }
 p {
 	font-family: "Indie Flower", cursive;
-	font-size: 30px;
+	font-size: 25px;
 	color: var(--font-color);
 }
 
@@ -101,7 +101,7 @@ li a {
 }
 
 #introduccion {
-	height: 100vh;
+	height: 75vh;
 	width: 100%;
 	text-align: center;
 }
@@ -163,8 +163,16 @@ li a {
 	}
 }
 
+#opciones {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	text-align: center;
+	align-content: space-between;
+}
+
 #sobre-nosotros {
-	height: 100vh;
+	height: 75vh;
 	width: 100%;
 }
 
@@ -173,6 +181,7 @@ li a {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	text-align: center;
 }
 
 #reco {
