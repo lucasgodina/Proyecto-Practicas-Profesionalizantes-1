@@ -37,18 +37,18 @@ h1 {
 
 h2 {
 	font-family: "Indie Flower", cursive;
-	font-size: 2rem;
+	font-size: 3rem;
 	color: black;
 }
 
-h3  {
+h3 {
 	font-family: "Indie Flower", cursive;
 	font-size: 2rem;
 	color: black;
 }
 p {
 	font-family: "Indie Flower", cursive;
-	font-size: 20px;
+	font-size: 30px;
 	color: var(--font-color);
 }
 
@@ -100,6 +100,12 @@ li a {
 	align-items: center;
 }
 
+#introduccion {
+	height: 100vh;
+	width: 100%;
+	text-align: center;
+}
+
 #recomendaciones {
 	display: flex;
 	flex-direction: column;
@@ -119,14 +125,14 @@ li a {
 		text-align: center;
 	}
 	.flex-item {
-		text-align: center; 
+		text-align: center;
 	}
 	.flex-item p {
-		margin: 10px 0; 
+		margin: 10px 0;
 	}
 	.flex-item img {
-		width: 100%; 
-		height: auto; 
+		width: 100%;
+		height: auto;
 	}
 
 	.flex-items:nth-child(1) {
@@ -160,8 +166,11 @@ li a {
 #sobre-nosotros {
 	height: 100vh;
 	width: 100%;
+}
+
+#galeria {
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
 	justify-content: center;
 	align-items: center;
 }
@@ -171,6 +180,7 @@ li a {
 	flex-direction: row;
 	justify-content: center;
 	align-items: center;
+	padding: 30px;
 }
 
 @media (max-width: 800px) {
